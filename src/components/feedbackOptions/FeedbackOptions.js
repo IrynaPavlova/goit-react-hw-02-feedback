@@ -1,15 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const FeedbackOptions = ({ good, neutral, bad }) => (
   <>
-    <button type="button" onClick={good}>
+    <button type="button" name="good" onClick={good}>
       Good
     </button>
-    <button type="button" onClick={neutral}>
+    <button type="button" name="neutral" onClick={neutral}>
       Neutral
     </button>
-    <button type="button" onClick={bad}>
+    <button type="button" name="bad" onClick={bad}>
       Bad
     </button>
   </>
@@ -18,7 +18,7 @@ const FeedbackOptions = ({ good, neutral, bad }) => (
 FeedbackOptions.propTypes = {
   good: PropTypes.func.isRequired,
   neutral: PropTypes.func.isRequired,
-  bad: PropTypes.func.isRequired,
+  bad: PropTypes.func.isRequired
 };
 
 export default FeedbackOptions;
