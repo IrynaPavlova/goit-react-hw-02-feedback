@@ -34,7 +34,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "husky": "^3.1.0",
     "install": "^0.13.0",
     "lint-staged": "^9.5.0",
@@ -42,5 +42,5 @@
     "prettier": "^1.19.1",
     "prop-types": "^15.7.2"
   },
-  "homepage": "https://irynapavlova.github.io/goit-react-hw-02-phonebook/"
+  "homepage": "https://irynapavlova.github.io/goit-react-hw-02-feedback/"
 }
